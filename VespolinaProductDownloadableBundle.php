@@ -9,14 +9,14 @@
 namespace Vespolina\ProductDownloadableBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
-use Vespolina\ProductDownloadableBundle\DependencyInjection\Compiler\TaggingCompilerPass;
+use Vespolina\ProductDownloadableBundle\DependencyInjection\Compiler\ProductCompilerPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 
 class VespolinaProductDownloadableBundle extends Bundle
 {
-    public function build(ContainerBuilder $container)
+    /*public function build(ContainerBuilder $container)
     {
-        $container->addCompilerPass(new TaggingCompilerPass());
-    }
+        $container->addCompilerPass(new ProductCompilerPass());
+    }*/
 }
